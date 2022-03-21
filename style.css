@@ -554,7 +554,19 @@ ul li a {
         align-items: center;
     }
 
+    .list6, .list, .list2, .list3, .list4, .list5, .list6{
+        text-align: left;
+        justify-content: left;
+    }
+
+    .list6{
+        width: 155px;
+    }
+
     .show {
         margin: 0;
+    }
+    .menu{
+        padding: 10px;
     }
 }
