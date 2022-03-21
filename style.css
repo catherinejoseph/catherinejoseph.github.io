@@ -174,7 +174,7 @@ ul li a {
 .about-text p{
     color: var(--second-color);
     margin: 5px 0 24px;
-    text-align: justify;
+    text-align: left;
     line-height: 1.8rem;
 }
 
@@ -507,6 +507,34 @@ ul li a {
         max-width: 200px;
     }
 
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #home, #about{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .skills{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .experience{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
     .box {
         display: flex;
         flex-direction: column;
@@ -517,9 +545,16 @@ ul li a {
         width: 150px;
     }
     .skills-container .part{
+        flex-direction: column;
         width: 175px;
     }
     .drop-down, .drop-down6, .drop-down5, .drop-down4, .drop-down3, .drop-down2{
         width: 175px;
+        display: block;
+        align-items: center;
+    }
+
+    .show {
+        margin: 0;
     }
 }
