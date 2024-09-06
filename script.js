@@ -33,13 +33,13 @@ const list3 = document.querySelector('.list3');
 dropdown3.addEventListener('click', () => {
     list3.classList.toggle('show');
 })
-const dropdown5 = document.querySelector('.drop-down5');
+// const dropdown5 = document.querySelector('.drop-down5');
 
-const list5 = document.querySelector('.list5');
+// const list5 = document.querySelector('.list5');
 
-dropdown5.addEventListener('click', () => {
-    list5.classList.toggle('show');
-})
+// dropdown5.addEventListener('click', () => {
+//     list5.classList.toggle('show');
+// })
 const dropdown6 = document.querySelector('.drop-down6');
 
 const list6 = document.querySelector('.list6');

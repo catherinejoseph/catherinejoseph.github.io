@@ -188,6 +188,7 @@ ul li a {
     flex: 1 1 30%;
   }
   .box {
+    color: var(--second-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -209,14 +210,15 @@ ul li a {
     margin-bottom: 1rem;
   }
   .box h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .box p {
-    font-size: 0.938rem;
+    font-size: 0.85rem;
     font-weight: 400;
     margin: 0.5rem 0 1rem;
   }
   .skills-container{
+    color: var(--second-color);
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -250,52 +252,52 @@ ul li a {
       align-items: center;
   }
   .drop-down h2 {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 400;
   }
   .drop-down2 h2 {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 400;
 }
   .drop-down3 h2 {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 400;
 }
   .drop-down4 h2 {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 400;
 }
   .drop-down5 h2 {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 400;
 }
 .drop-down6 h2 {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 400;
 }
 
 .drop-down h3{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--second-color);
 }
 .drop-down2 h3{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--second-color);
 }
 .drop-down3 h3{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--second-color);
 }
 .drop-down4 h3{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--second-color);
 }
 .drop-down5 h3{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--second-color);
 }
 .drop-down6 h3{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--second-color);
 }
   .list, .list6, .list5, .list4, .list3, .list2{
